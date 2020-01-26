@@ -1,3 +1,166 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .action-button {
+    display: block;
+    margin-left: 50px;
+    background: #1968FC;
+    border: none;
+    color: #fff;
+    width: 160px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+  }
+}
+
+.navigation {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .navigation {
+    display: block;
+    margin-left: 220px;
+  }
+}
+.navigation__item {
+  color: #000000;
+  text-decoration: none;
+  font-family: Muli;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.logo__name {
+  margin-left: 10px;
+  color: #1968FC;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.headline {
+  width: 100%;
+}
+.headline__content {
+  width: 100%;
+  margin: 80px 80px 80px 80px;
+}
+.headline__title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: #11223F;
+  width: 480px;
+  height: 120px;
+}
+.headline__description {
+  max-width: 480px;
+  height: 80px;
+  color: #11223F;
+  font-size: 20px;
+  line-height: 40px;
+}
+.headline__mobile {
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #1968FC;
+  border: none;
+  text-transform: uppercase;
+}
+.headline__desktop {
+  display: none;
+}
+.headline__banner {
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.visit-desktop {
+  max-width: 100%;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
+}
+.visit-desktop__text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.responses {
+  display: flex;
+  flex-direction: column;
+}
+.responses__row-first {
+  border: 1px solid white;
+  background: #FFFFFF;
+  margin: 50px 50px 50px 50px;
+}
+.responses__row-second {
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid white;
+  background: #FFFFFF;
+}
+.responses__logo {
+  display: flex;
+}
+.responses__image {
+  max-width: 100px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.responses__position {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.responses__name {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #11223F;
+}
+.responses__ceo {
+  color: #1967FA;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+.responses__text {
+  margin: 40px 40px 40px 40px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #11223F;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +168,7 @@
 html {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .page {

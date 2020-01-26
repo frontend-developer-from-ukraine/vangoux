@@ -1,0 +1,49 @@
+.responses {
+    display: flex;
+    flex-direction: column;
+    &__row-first {
+        border: 1px solid white;
+        background: #FFFFFF;
+        margin: 50px 50px 50px 50px;
+    }
+    &__row-second {
+        margin: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 1px solid white;
+        background: #FFFFFF;
+    }
+    &__logo {
+        display: flex;
+    }
+    &__image {
+        max-width: 100px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    &__position {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    &__name {
+        margin-top: 60px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #11223F;
+    }
+    &__ceo {
+        color: #1967FA;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+        opacity: 0.8;
+    }
+    &__text {
+        margin: 40px 40px 40px 40px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #11223F;
+    }
+}
